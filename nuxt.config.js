@@ -57,6 +57,12 @@ module.exports = {
     /*
     ** You can extend webpack config here
     */
+    loader: [{
+      test: /\.less$/,
+      loader: 'style-loader!css-loader!less-loader',
+    }],
+
+    
     extend(config, ctx) {
     }
   }
