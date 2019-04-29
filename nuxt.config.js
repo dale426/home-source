@@ -43,9 +43,11 @@ module.exports = {
   modules: [
     '@nuxtjs/axios',
   ],
+
   axios: {
     // proxyHeaders: false   // https://axios.nuxtjs.org/
   },
+  
   proxy: {
     '/api/': 'http://api.example.com',
     '/api2/': 'http://api.another-website.com'
@@ -62,7 +64,7 @@ module.exports = {
       loader: 'style-loader!css-loader!less-loader',
     }],
 
-    
+
     extend(config, ctx) {
     }
   }
