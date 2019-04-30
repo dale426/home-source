@@ -1,6 +1,6 @@
 # juban-official
 
-> 桔瓣官网
+> ssr
 
 ## Build Setup
 

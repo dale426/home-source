@@ -1,7 +1,7 @@
 {
-  "name": "juban-official",
+  "name": "vue-ssr",
   "version": "1.0.0",
-  "description": "桔瓣官网",
+  "description": "vue-ssr",
   "author": "10067142",
   "private": true,
   "scripts": {
