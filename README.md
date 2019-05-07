@@ -25,3 +25,12 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 ## core-js报错解决
 1. 使用npm install 安装
 2. npm i core-js@2.6.5
+
+
+## git subtree
+
+[子仓库关联教程](https://segmentfault.com/a/1190000012002151?utm_source=tag-newest)
+
+添加 git subtree add --prefix=sub https://github.com/dale426/nuxt-home.io.git master --squash
+<!-- 父仓库提交 -->
+推送 git subtree push --prefix=dist/ sub master
