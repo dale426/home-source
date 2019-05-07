@@ -20,3 +20,8 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+
+
+## core-js报错解决
+1. 使用npm install 安装
+2. npm i core-js@2.6.5

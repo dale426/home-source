@@ -49,8 +49,8 @@ module.exports = {
   },
   
   proxy: {
-    '/api/': 'http://api.example.com',
-    '/api2/': 'http://api.another-website.com'
+    // '/api/': 'http://api.example.com',
+    // '/api2/': 'http://api.another-website.com'
   },
   /*
   ** Build configuration

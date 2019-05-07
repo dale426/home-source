@@ -3,10 +3,10 @@
     <div>
       <logo />
       <h1 class="title">
-        juban-official
+        long
       </h1>
       <h2 class="subtitle">
-        桔瓣官网
+         我的个人网站
       </h2>
       <div class="links">
         <a
