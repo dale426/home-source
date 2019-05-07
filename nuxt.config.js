@@ -45,11 +45,12 @@ module.exports = {
   ],
 
   axios: {
-    // proxyHeaders: false   // https://axios.nuxtjs.org/
+    proxy: true, // Can be also an object with default options
+    proxyHeaders: false   // https://axios.nuxtjs.org/
   },
   
   proxy: {
-    // '/api/': 'http://api.example.com',
+    '/ju/': 'https://www.juzimi.com',
     // '/api2/': 'http://api.another-website.com'
   },
   /*
