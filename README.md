@@ -34,7 +34,7 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 直接添加： git subtree add --prefix=dist https://github.com/dale426/home.git master --squash
 > 方式二：
 简化命令  git remote add -f dist https://github.com/dale426/home.git
-添加 git subtree add --prefix=dist dist master --squash
+添加 git subtree add --prefix=dist dist master --squash  // 此步骤需要 父模块操作提交后， 直接推送
 <!-- 父仓库提交 -->
 > 推送
-推送 git subtree push --prefix=dist/ sub master
+推送 git subtree push --prefix=dist/ dist master
