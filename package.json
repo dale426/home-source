@@ -1,8 +1,8 @@
 {
-  "name": "vue-ssr",
+  "name": "long",
   "version": "1.0.0",
-  "description": "vue-ssr",
-  "author": "10067142",
+  "description": "long space site",
+  "author": "dale",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
