@@ -35,6 +35,13 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 > 方式二：
 简化命令  git remote add -f dist https://github.com/dale426/home.git
 添加 git subtree add --prefix=dist dist master --squash  // 此步骤需要 父模块操作提交后， 直接推送
+
+
+然后可以这样来使用git subtree命令：
+
+git subtree add --prefix=sub/libpng libpng master --squash
+git subtree pull --prefix=sub/libpng libpng master --squash
+git subtree push --prefix=sub/libpng libpng master
 <!-- 父仓库提交 -->
 > 推送
 推送 git subtree push --prefix=dist/ dist master
