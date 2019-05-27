@@ -7,41 +7,36 @@
             <p class="describe">{{juzi}}</p>
 
             <div class="links">
-                <link
-                    rel="stylesheet"
-                    type="text/css"
-                    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-                >
                 <nav>
                     <div class="menu">
                         <ul class="clear">
                             <li>
                                 <a href="https://blog.52yulong.cn" target="_blank" title="Blog">
-                                    <i class="fa fa-home" aria-hidden="true"></i>
+                                    <i class="iconfont iconedit-square" aria-hidden="true"></i>
                                     <span class="link-text">网络日志</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" title="Tool">
-                                    <i class="far fa-lightbulb" aria-hidden="true"></i>
+                                <a href="/tools" title="Tool">
+                                    <i class="iconfont iconwrench" aria-hidden="true"></i>
                                     <span class="link-text">在线工具集</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" title="Portfolio">
-                                    <i class="fas fa-pencil-alt" aria-hidden="true"></i>
+                                    <i class="iconfont iconcustomerservice" aria-hidden="true"></i>
                                     <span class="link-text">暂未开放</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" title="Blog">
-                                    <i class="far fa-comment" aria-hidden="true"></i>
+                                    <i class="iconfont iconheart" aria-hidden="true"></i>
                                     <span class="link-text">暂未开放</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" title="Contact">
-                                    <i class="far fa-envelope" aria-hidden="true"></i>
+                                    <i class="iconmail iconfont" aria-hidden="true"></i>
                                     <span class="link-text">Contact</span>
                                 </a>
                             </li>
@@ -58,10 +53,10 @@ export default {
     name: "home",
     data() {
         return {
-            juzi: ''
+            juzi: '“你是神明不渡的苦 却偏偏是我的救赎”'
         }
     },
-    async asyncData({ isDev, route, store, env, params, query, req, res, redirect, error, $axios }) {
+/*     async asyncData({ isDev, route, store, env, params, query, req, res, redirect, error, $axios }) {
       try {
 
         const ip = await $axios.$get('/ju/5683749')
@@ -73,7 +68,7 @@ export default {
       } catch (err) {
         
       }
-    },
+    }, */
     components: {
     },
     mounted() {

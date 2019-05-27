@@ -23,17 +23,18 @@
     }
 
     nav .menu {
-      margin-top: 50px;
       text-align: center;
     }
-
+    
     nav .menu ul {
       list-style-type: none;
       display: inline-block;
       padding: 0;
     }
-
+    
     nav .menu ul li {
+      margin-top: 50px;
+      position: relative;
       float: left;
       width: 124px;
       height: 140px;
@@ -47,7 +48,13 @@
       transition: background-color 0.2s linear 0s;
     }
 
-    nav .menu ul li:last-child {
+    nav .menu ul li:last-child::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: -1px;
+      height: 100%;
+      width: 1px;
       border-right: 1px solid #e3e3e3;
     }
 
@@ -141,7 +148,7 @@
 
     nav .menu ul li:hover i {
       color: #eee;
-      font-size: 43px;
+      font-size: 50px;
     }
 
     nav .menu ul li:hover i:before {

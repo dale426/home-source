@@ -29,6 +29,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    '~static/iconfont/iconfont.css'
   ],
 
   /*
