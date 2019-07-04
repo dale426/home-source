@@ -4,7 +4,7 @@
         <div class="tools__main-items">
             <!-- 分类工具 -->
             <div class="tools__wrapper" v-for=" (item, index) in menuList" :key="index">
-                <div class="tools__title">前端开发</div>
+                <div class="tools__title">{{item.title}}</div>
                 <div class="tools__content">
                     <div
                         class="tools__item"
@@ -15,7 +15,7 @@
                             <div class="tools__item-logo">
                                 <a :href="subItem.url" target="_blank">
                                     <img
-                                        :src="require(`@/assets/img/tool/${subItem.imgName}`)"
+                                        :src="subItem | imgData"
                                         alt="不支持显示"
                                     >
                                 </a>
@@ -50,6 +50,11 @@ export default {
     },
     created() {
         this.menuList = categoryList;
+    },
+    filters: {
+        imgData(subItem) {
+            return subItem.imgUrl || require(`@/assets/img/tool/${subItem.imgName}`)
+        }
     }
 }
 </script>

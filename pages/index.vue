@@ -3,7 +3,7 @@
         <canvas id="test"></canvas>
         <div>
             <!-- <logo /> -->
-            <h2 class="title">李玉龙的个人网站</h2>
+            <h2 class="title">小虫子的网络空间</h2>
             <p class="describe">{{juzi}}</p>
 
             <div class="links">

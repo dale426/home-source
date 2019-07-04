@@ -1,21 +1,20 @@
-# vue-ssr
+# Nuxt
 
-> ssr
 
 ## Build Setup
 
 ``` bash
-# install dependencies
-$ npm install
+# 安装依赖
+$ npm install 或者 yarn install
 
-# serve with hot reload at localhost:3000
+# 启动项目 & 热更新 at localhost:3000
 $ npm run dev
 
 # build for production and launch server
 $ npm run build
 $ npm start
 
-# generate static project
+# 构建静态网站文件
 $ npm run generate
 ```
 
