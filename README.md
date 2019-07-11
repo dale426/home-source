@@ -29,18 +29,23 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 ## git subtree
 
 [子仓库关联教程](https://segmentfault.com/a/1190000012002151?utm_source=tag-newest)
-> 方式一：
-直接添加： git subtree add --prefix=dist https://github.com/dale426/home.git master --squash
-> 方式二：
-简化命令  git remote add -f dist https://github.com/dale426/home.git
-添加 git subtree add --prefix=dist dist master --squash  // 此步骤需要 父模块操作提交后， 直接推送
+- 方式一直接添加： 
+
+  git subtree add --prefix=dist https://github.com/dale426/home.git master --squash
+
+- 方式二[可行方法]：
+
+    git remote add -f dist https://github.com/dale426/home.git
+    
+    git subtree add --prefix=dist dist master --squash  // 此步骤需要 父模块操作提交后， 直接推送
 
 
 然后可以这样来使用git subtree命令：
 
-git subtree add --prefix=sub/libpng libpng master --squash
-git subtree pull --prefix=sub/libpng libpng master --squash
+git subtree add --prefix=sub/libpng libpng master --squash   
+git subtree pull --prefix=sub/libpng libpng master --squash   
 git subtree push --prefix=sub/libpng libpng master
 <!-- 父仓库提交 -->
-> 推送
-推送 git subtree push --prefix=dist/ dist master
+### 推送
+
+git subtree push --prefix=dist/ dist master
