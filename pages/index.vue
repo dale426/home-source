@@ -23,15 +23,15 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" title="Portfolio">
+                                <a href="https://music.163.com/#/user/home?id=289526154" title="Portfolio">
                                     <i class="iconfont iconcustomerservice" aria-hidden="true"></i>
-                                    <span class="link-text">暂未开放</span>
+                                    <span class="link-text">音乐天地</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" title="Blog">
+                                <a href="https://zhimap.com/gallery" title="Blog">
                                     <i class="iconfont iconheart" aria-hidden="true"></i>
-                                    <span class="link-text">暂未开放</span>
+                                    <span class="link-text">知识地图</span>
                                 </a>
                             </li>
                             <li>
