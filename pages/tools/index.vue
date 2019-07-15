@@ -14,21 +14,17 @@
                         <div class="tools__item-container">
                             <div class="tools__item-logo">
                                 <a :href="subItem.url" target="_blank">
-                                    <img
-                                        :src="subItem | imgData"
-                                        alt="不支持显示"
-                                    >
+                                    <img :src="subItem | imgData" alt="不支持显示" />
                                 </a>
                             </div>
                             <div class="tools__item-desc">
                                 <p class="tools__item-title">
                                     <a :href="subItem.url" target="_blank">{{subItem.title}}</a>
                                 </p>
-                                <p class="tools__item-sub">{{subItem.desc}}</p>
+                                <p class="tools__item-sub" :title="subItem.desc">{{subItem.desc}}</p>
                                 <p class="tools__item-links">
-                                    <a href="#">
-                                        <i class="iconfont iconcloud"></i>
-                                    </a>
+                                    <i class="iconfont icontag"></i>
+                                    {{subItem.tag}}
                                 </p>
                             </div>
                         </div>

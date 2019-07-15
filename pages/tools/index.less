@@ -1,4 +1,4 @@
-html{
+html {
   height: 100%;
   background: #f3f3f3;
   line-height: 1.5;
@@ -11,11 +11,11 @@ a {
   margin: 0 auto;
   color: #333;
 }
-.tools__title{
+.tools__title {
   padding: 10px 0 5px 5px;
   font-size: 16px;
 }
-.tools__content{
+.tools__content {
   display: flex;
   flex-wrap: wrap;
 }
@@ -26,53 +26,51 @@ a {
   text-align: center;
 }
 
-.tools__item{
-  margin-bottom: 10px;
+.tools__item {
   position: relative;
-  height: 90px;
   box-sizing: border-box;
-  overflow: hidden;
 }
-.tools__item-container{
+.tools__item-container {
+  &:hover {
+    box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2);
+    transition: all ease-out 0.3s;
+  }
   display: flex;
   padding: 10px;
-  margin-right: 10px;
-  height: 100%;
+  margin: 10px;
   background: #fff;
-
 }
 .tools__item-logo {
-    width: 60px;
-    height: 60px;
-    vertical-align: middle;
-    cursor: pointer;
-    border: 1px solid #eee;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
-    overflow: hidden;
-    flex-shrink: 0;
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-    }
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid #eee;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  overflow: hidden;
+  flex-shrink: 0;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
 }
-.tools__item-desc{
+.tools__item-desc {
   color: #9e9e9e;
   margin-left: 10px;
   flex-grow: 1;
-  .tools__item-title{
+  .tools__item-title {
     white-space: nowrap;
     font-size: 16px;
-    a{
+    a {
       color: #2d8cf0;
-
     }
   }
   .tools__item-sub {
     height: 32px;
     line-height: 16px;
-    color: #9e9e9e;
+    color: #666;
     font-size: 12px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -85,34 +83,33 @@ a {
   .tools__item-links {
     height: 16px;
     line-height: 16px;
-    // display: flex;
-    a {
-      display: inline-block;
-      vertical-align: baseline;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    i {
+      margin-right: 4px;
     }
   }
 }
 
-
-
 @media (max-width: 799px) {
   .category__report[data-v-382b7874] {
-      display:none
+    display: none;
   }
 
   .tools__item {
-      width: 50%
+    width: 50%;
   }
 }
 
-@media (min-width: 800px) and (max-width:999px) {
+@media (min-width: 800px) and (max-width: 999px) {
   .tools__item {
-      width:33%
+    width: 33%;
   }
 }
 
 @media (min-width: 1000px) {
   .tools__item {
-      width:25%
+    width: 25%;
   }
 }

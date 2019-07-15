@@ -1,5 +1,4 @@
-import dev from './fontDevTools';
-import doc from './fontDoc';
-
-
-export default [dev, doc];
+import dev from './toolsData/fontDevTools';
+import doc from './toolsData/fontDoc';
+import collect from './toolsData/collect';
+export default [collect, dev, doc];
