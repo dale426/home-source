@@ -35,7 +35,6 @@ export default function () {
 
   function particles() {
     ctx.clearRect(0, 0, w, h);
-    canvas.addEventListener('mousemove', MouseMove, false);
     for (var i = 0; i < arc; i++) {
       var li = parts[i];
       var distanceFactor = DistanceBetween(mouse, parts[i]);
@@ -73,13 +72,6 @@ export default function () {
     setTimeout(particles, 1000 / rate);
   }
 
-  function MouseMove(e) {
-    mouse.x = e.layerX;
-    mouse.y = e.layerY;
-
-    //context.fillRect(e.layerX, e.layerY, 5, 5);
-    //Draw( e.layerX, e.layerY );
-  }
   function DistanceBetween(p1, p2) {
     var dx = p2.x - p1.x;
     var dy = p2.y - p1.y;
