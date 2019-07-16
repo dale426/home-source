@@ -38,9 +38,9 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" title="Contact">
+                                <a href="/about" title="AboutMe">
                                     <i class="iconmail iconfont" aria-hidden="true"></i>
-                                    <span class="link-text">Contact</span>
+                                    <span class="link-text">AboutMe</span>
                                 </a>
                             </li>
                         </ul>

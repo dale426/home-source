@@ -23,4 +23,8 @@ html {
   box-sizing: border-box;
   margin: 0;
 }
+ul, li, a {
+  list-style: none;
+  text-decoration: none;
+}
 </style>
