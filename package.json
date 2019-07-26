@@ -11,7 +11,7 @@
     "generate": "nuxt generate",
     "gitAdd": "git add . && git commit -m 'generate'",
     "pushSubtree": "git subtree push --prefix=dist/ dist master",
-    "github" : "npm run generate && npm run gitAdd && npm run pushSubtree"
+    "publish" : "npm run generate && npm run gitAdd && npm run pushSubtree"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.4.1",
