@@ -17,7 +17,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="/tools" title="Tool">
+                                <a href="/tools" title="Tool" target="_blank">
                                     <i class="iconfont iconwrench" aria-hidden="true"></i>
                                     <span class="link-text">在线工具集</span>
                                 </a>
@@ -26,19 +26,20 @@
                                 <a
                                     href="https://music.163.com/#/user/home?id=289526154"
                                     title="Portfolio"
+                                    target="_blank"
                                 >
                                     <i class="iconfont iconcustomerservice" aria-hidden="true"></i>
                                     <span class="link-text">音乐天地</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://zhimap.com/gallery" title="Blog">
+                                <a href="https://github.com/dale426/long-Fragment-Knowledge/blob/master/README.md" title="Blog" target="_blank">
                                     <i class="iconfont iconheart" aria-hidden="true"></i>
-                                    <span class="link-text">知识地图</span>
+                                    <span class="link-text">知识碎片</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/about" title="AboutMe">
+                                <a href="/about" title="AboutMe" target="_blank">
                                     <i class="iconmail iconfont" aria-hidden="true"></i>
                                     <span class="link-text">AboutMe</span>
                                 </a>
