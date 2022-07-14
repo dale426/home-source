@@ -60,7 +60,7 @@ export default {
     name: "home",
     data() {
         return {
-            juzi: '“你是神明不渡的苦 却偏偏是我的救赎”'
+            juzi: '“-你是神明不渡的苦 却偏偏是我的救赎-”'
         }
     },
     /*     async asyncData({ isDev, route, store, env, params, query, req, res, redirect, error, $axios }) {
